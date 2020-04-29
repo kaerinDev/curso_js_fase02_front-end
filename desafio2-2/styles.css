@@ -1,0 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap" rel="stylesheet";
+:root {
+    --color-white: rgb(255, 255, 255);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    color: var(--color-white);
+    background: rgb(88, 62, 136);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header div {
+    background: rgba(0, 0, 0, 0.493);
+    padding: 30px;
+    border-bottom: 1px solid #333333;
+}
+
+.links a {
+    color: var(--color-white);
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 30px;
+    text-decoration-line: none;
+}
+
+.links a:hover {
+    color:#000000da;
+    transition: 200ms;
+}
+
+#wrapper {
+    padding: 30px;
+}
+
+#wrapper img {
+    max-width: 400px;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+}
+
+#wrapper p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#wrapper h1 {
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.list {
+    padding-left: 37%;
+}
+
+.list li {
+    text-align: left;
+    line-height: 28px;
+}
